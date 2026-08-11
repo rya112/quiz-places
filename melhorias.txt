@@ -1,5 +1,0 @@
-1. remover botão iniciar quiz do header
-2. zerar contador ao sair do quiz
-3. randomizar a orderm das perguntas e opções de respostas
-4. ao final do quiz, mostrar a quantidade de acertos e perguntas feitas
-5. ajustar o header no modo mobile, deixando mais compacto e centralizado os elementos.
