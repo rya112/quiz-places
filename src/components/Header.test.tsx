@@ -13,7 +13,7 @@ describe('Header (Componente de Cabeçalho)', () => {
   it('deve exibir o título do site e NÃO exibir o botão de iniciar quiz no cabeçalho', () => {
     render(<Header {...defaultProps} />);
 
-    expect(screen.getByText(/ia quiz places/i)).toBeInTheDocument();
+    expect(screen.getByText(/quiz places/i)).toBeInTheDocument();
     expect(screen.queryByRole('button', { name: /iniciar quiz/i })).not.toBeInTheDocument();
   });
 

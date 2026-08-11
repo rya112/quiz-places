@@ -12,7 +12,7 @@ describe('App - Fluxo Completo com Melhorias (melhorias.txt)', () => {
   it('deve inicializar na página de boas-vindas', () => {
     render(<App />);
 
-    expect(screen.getByText(/bem vindo ao ia quiz places/i)).toBeInTheDocument();
+    expect(screen.getByText(/bem vindo ao quiz places/i)).toBeInTheDocument();
     expect(screen.queryByTestId('score-counter')).not.toBeInTheDocument();
   });
 
@@ -79,7 +79,7 @@ describe('App - Fluxo Completo com Melhorias (melhorias.txt)', () => {
     // Clicar em Sair
     fireEvent.click(screen.getByRole('button', { name: /sair/i }));
 
-    expect(screen.getByText(/bem vindo ao ia quiz places/i)).toBeInTheDocument();
+    expect(screen.getByText(/bem vindo ao quiz places/i)).toBeInTheDocument();
     expect(screen.queryByTestId('score-counter')).not.toBeInTheDocument();
 
     // Re-iniciar quiz para garantir que o contador foi zerado
