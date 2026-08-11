@@ -23,7 +23,7 @@ Aplicação web interativa de Quiz de Lugares e Monumentos Famosos ao redor do m
 
 O projeto possui uma esteira automatizada de Integração e Entrega Contínua via **GitHub Actions** ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)) contemplando rigorosamente as 6 etapas de deploy:
 
-1. **Checkout & Setup:** Clonagem do repositório e preparação do ambiente Node.js (v20).
+1. **Checkout & Setup:** Clonagem do repositório e preparação do ambiente Node.js (v24).
 2. **Validação de Código:** Execução do ESLint (`npm run lint`) e checagem de tipos estáticos (`npx tsc --noEmit`).
 3. **Execução de Testes:** Suíte de 29 testes automatizados (`npm test`).
 4. **Verificação de Vulnerabilidades:** Análise de segurança de pacotes com `npm audit --audit-level=high`.
