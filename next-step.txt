@@ -1,0 +1,6 @@
+1. carregar dados de API externa
+2. seo
+3. multi idiomas
+4. modo tela cheia
+5. modo tour (apenas visualizar imagens sem responder)
+6. modo hard (apenas imagens sem legendas)
