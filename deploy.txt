@@ -1,6 +1,0 @@
-1. criar script CI/CD
-2. executar validacao de codigo (lint, tsc)
-3. executar testes
-4. verificar vulnerabilidade
-5. build do projeto
-6. deploy na vercel

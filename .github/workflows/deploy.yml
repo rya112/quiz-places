@@ -1,4 +1,4 @@
-name: CI/CD Pipeline - IA Quiz Places
+name: CI/CD Pipeline - Quiz Places
 
 on:
   push:

@@ -17,7 +17,7 @@ export const Header: React.FC<HeaderProps> = memo(({
   return (
     <header className="app-header">
       <div className="header-title-container">
-        <h1 className="header-title">IA Quiz Places</h1>
+        <h1 className="header-title">Quiz Places</h1>
       </div>
 
       {isInQuizView && (

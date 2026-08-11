@@ -117,7 +117,7 @@ export function App() {
       </main>
 
       <footer className="app-footer">
-        <p>IA Quiz Places &copy; {new Date().getFullYear()} - Aprenda se divertindo com imagens incríveis!</p>
+        <p>Quiz Places &copy; {new Date().getFullYear()} - Aprenda se divertindo com imagens incríveis!</p>
       </footer>
     </div>
   );

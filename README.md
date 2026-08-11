@@ -1,4 +1,6 @@
-# 🌍 IA Quiz Places
+Projeto criado com assistente de IA seguindos passos, melhorias e boas práticas.  
+
+# 🌍 Quiz Places
 
 Aplicação web interativa de Quiz de Lugares e Monumentos Famosos ao redor do mundo, desenvolvida em **React 18**, **TypeScript**, **Vite** e estilizada com **Vanilla CSS (Glassmorphism)**. O projeto foi totalmente construído utilizando a metodologia **Test-Driven Development (TDD)** com **Vitest** e **React Testing Library**.
 
